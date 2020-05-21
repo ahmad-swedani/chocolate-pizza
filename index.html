@@ -3,6 +3,8 @@
 
 <head>
     <title>Choco-Pizza</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@562;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/reset.css">
     <link href="css/style.css" rel="stylesheet" />
     <!-- <script src="js/app2.js"></script> -->
 
@@ -10,48 +12,38 @@
 
 <body>
     <header>
-        <img src='img/logo.png' alt='logo'>
-        <h1>Delicious</h1>
-        <p>The Best Food Blog On The Web</p>
-
+        <div id="logo">
+            <img src='img/logo.png' alt='logo'>
+            <h1>Delicious</h1>
+            <p>The Best Food Blog On The Web</p>
+        </div>
         <nav>
             <img src='img/fb-icon.png' alt='facebook-icon'>
             <img src='img/twit-icon.png' alt='twitter'>
             <img src='img/gp-icon.png' alt='google-icon'>
             <img src='img/insta-icon.png' alt='inst'>
             <img src='img/flic-icon.png' alt='flic'>
-            <img src='img/pint-icon.png' alt='pint'>
+            <img  id="space" src='img/pint-icon.png' alt='pint'>
             <img src='img/rss-icon.png' alt='rss'>
             <img src='img/mail-icon.png' alt='mail'>
         </nav>
-
-        <!-- Imges:
-        <img  src='img/choco-pizza.png'   alt='choco-pizza'>
-        <img  src='img/fb-icon.png'   alt='facebook-icon'>
-        <img  src='img/flic-icon.png'   alt='flic'>
-        <img  src='img/gp-icon.png'   alt='google-icon'>
-        <img  src='img/hr-img.png'   alt='hr'>
-        <img  src='img/insta-icon.png'   alt='inst'>
-        <img  src='img/list-bg.png'   alt='list'>
-        <img  src='img/logo.png'   alt='logo'>
-        <img  src='img/mail-icon.png'   alt='mail'>
-        <img  src='img/pint-icon.png'   alt='pint'>
-        <img  src='img/print-icon.png'   alt='printer'>
-        <img  src='img/rss-icon.png'   alt='rss'>
-        <img  src='img/small-logo.png'   alt='small-logo'>
-        <img  src='img/twit-icon.png'   alt='twitter'>
-        <img  src='img/van-pic.png'   alt='van'> -->
-
     </header>
-    <div class="breaker"> </div>
+    <div class="breaker">
+        <p>.</p>
+    </div>
 
     <main>
-        <div>
-            <h1>Chocolate Pizza</h1>
+        <div id="title">
+            <h2>Chocolate Pizza</h2>
             <p>Posted on 15 Dec 2013/desserets</p>
         </div>
+        <div id="print">
+            <img src='img/print-icon.png' alt='print-icon'>
+            <p>PRINT</p>
+        </div>
 
-        <article>
+
+        <article id="article1">
             <img id="mainPic" src='img/choco-pizza.png' alt='choco-pizza'>
 
             <p>For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve.
@@ -73,8 +65,8 @@
 
         </article>
 
-        <article>
-            
+        <article id="article2">
+
             <form action="/action_page.php" id='list1'>
                 <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
                 <label for="vehicle1"> 1 1/2 cups milk</label><br>
@@ -100,10 +92,10 @@
                 <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
                 <label for="vehicle1">1 1/2 cups heavy cream</label><br>
 
-                
+
                 <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" checked>
                 <label for="vehicle2"> <del> 1/3 granulated sugar</del> </label><br>
-                
+
 
                 <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" checked>
                 <label for="vehicle3"><del> 2 egg yolks</del> </label><br>
@@ -112,16 +104,18 @@
                 <label for="vehicle3"> 1 lemon, juiced</label><br>
 
                 <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-                <label for="vehicle3"> 2  tbsp butter</label><br>
+                <label for="vehicle3"> 2 tbsp butter</label><br>
 
                 <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-                <label for="vehicle3"> 1 cup honey roasted pecans, roughly chopped</label><br>
+                <label for="vehicle3"> 1 cup honey roasted pecans, roughly <br>&ensp; chopped</label><br>
             </form>
 
         </article>
-        <div class="breaker"> </div>
+        <div class="breaker">
+            <p>.</p>
+        </div>
 
-        <article>
+        <article id="van">
             <img src='img/van-pic.png' alt='van'>
             <h3>Vanessa Stevenson</h3>
             <p> Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am. </p>

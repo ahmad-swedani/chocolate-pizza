@@ -1,0 +1,149 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@562;700&display=swap'); */
+body {
+    margin: 0 17% 0 17%;
+    background-color: #fff;
+}
+
+h1 {
+
+    font-weight: bold;
+    text-align: left;
+    font-size: 40px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* element selctor */
+
+main {
+    margin: 4% 0 4% 0;
+    border-bottom: 0.1px solid lightgray;
+}
+
+article {
+    margin: 1% 0 0 0;
+}
+
+nav {
+    float: right;
+    margin: -2% 0% 0 0;
+}
+
+/* class selctor */
+
+.breaker {
+    background-image: url(/img/hr-img.png);
+    background-repeat: repeat;
+    ;
+    width: 100%;
+    height: 50%;
+    margin: 1% 0 0 1%;
+}
+
+.breaker p {
+    opacity: 0;
+}
+
+/* id selctor */
+
+#logo img {
+    float: left;
+}
+
+
+#logo p {
+    margin: -.4% 0 0 .4%;
+}
+
+#print {
+    margin: -2% 0% 0 0;
+    float: right;
+}
+
+#print p {
+    float: right;
+    color: gray;
+}
+
+#title p {
+    color: gray;
+}
+
+#mainPic {
+    width: 100%;
+}
+
+#article1 p {
+    font-size: 24px;
+    text-indent: 2%;
+    margin: 4% 0 0 0;
+    color: #4d4a8b;
+}
+
+#article2 {
+    font-size: 28px;
+    background-image: url(/img/list-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 3% 0 4% 0;
+    padding: 4% 0 5.5% 0;
+}
+
+#article2 #list1 {
+    float: left;
+    padding: 0 0 0 7%;
+}
+
+#article2 #list2 {
+    margin: 0 0 0 50%;
+}
+
+#van img {
+    float: left;
+}
+
+#van h3 {
+    margin: 0 0 0 7%;
+}
+
+#van p {
+    font-size: 24px;
+    margin: .7% 0 0 7%;
+}
+
+#van button {
+    margin: -3.4% 0 0 0;
+    padding: 1% 2%;
+    background-color: #b86e56;
+    float: right;
+}
+
+#van {
+    margin: 3.5% 0 10% 0;
+}
+
+article #list1 input {
+    margin: 7% 0 0 0;
+}
+
+article #list2 input {
+    margin: 2.5% 0 0 0;
+}
+
+footer {
+    text-align: center;
+    color: grey;
+    margin: 0 0 4% 0;
+}
+
+footer img {
+    margin: -5.4% 0 4% 0;
+}
