@@ -1,11 +1,11 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@562;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@562;700&display=swap');
 body {
     margin: 0 17% 0 17%;
     background-color: #fff;
 }
 
 h1 {
-
+    font-family: 'Dancing Script', cursive;
     font-weight: bold;
     text-align: left;
     font-size: 40px;
