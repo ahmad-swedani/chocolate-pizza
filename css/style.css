@@ -40,7 +40,7 @@ nav {
 /* class selctor */
 
 .breaker {
-    background-image: url(img/hr-img.png);
+    background-image: url("img/hr-img.png");
     background-repeat: repeat;
     ;
     width: 100%;
@@ -90,7 +90,7 @@ nav {
 
 #article2 {
     font-size: 28px;
-    background-image: url(img/list-bg.png);
+    background-image: url("img/list-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     margin: 3% 0 4% 0;
